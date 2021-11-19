@@ -25,9 +25,17 @@ class Guru extends BaseController
     }
 
     public function detail($slug){
-       $guru = $this->guruModel->getGuru($slug);
-       dd($guru);
+      
+       $data =[
+           'judul' => 'Detail Guru',
+           'guru' => $this->guruModel->getGuru($slug)
+           
+
+       ];
+      
+       return view('guru/detail',$data);
        
 
-    }
+    
+   }
 }
