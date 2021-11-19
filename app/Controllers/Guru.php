@@ -23,8 +23,10 @@ $guru =$this->guruModel->findAll();
         
     return view('guru/index',$data);
     }
+
     public function detail($slug){
-       echo $slug;
+       $guru = $this->guruModel->where(['slug'=> $slug])->first(); 
+       dd($guru);
        
 
     }
