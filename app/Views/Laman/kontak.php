@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-        <h1>Laman Kontak</h1>
+        <h1>Kontak</h1>
         <?php foreach($alamat as $a): ?>
            <ul>
            <li><?=$a['tipe'];?>

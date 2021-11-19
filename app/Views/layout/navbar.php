@@ -12,7 +12,7 @@
             <a class="nav-link active" aria-current="page" href="/">Beranda</a>
             <a class="nav-link" href="/laman/tentang">Tentang</a>
             <a class="nav-link" href="/laman/kontak">Kontak</a>
-            <a class="nav-link" href="/guru/index">Data Guru</a>
+            <a class="nav-link" href="/guru/">Data Guru</a>
           </div>
         
       </div>

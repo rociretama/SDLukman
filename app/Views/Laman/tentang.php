@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1>Laman Tentang</h1>
+            <h1>Tentang</h1>
         </div>
     </div>
 </div>
