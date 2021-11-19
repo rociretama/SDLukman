@@ -17,12 +17,13 @@
   <tbody><?php $i=1;?>
 
     <?php foreach ($guru as $g): ?>
-      
+          
     <tr>
-   <th scope="row"><?=$g;?></th>
+    <th scope="row"><?=$i++;?></th>
    <td><img src="/img/<?=$g['foto'];?>" alt="" class="foto"></td>
      <td><?=$g['nama'];?>" </td>
       <td> <a href="/guru/<?=$g['slug'];?>" class="btn btn-success">Detail</button> </td>
+  
       
     </tr>
     <?php endforeach;?>

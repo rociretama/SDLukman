@@ -12,11 +12,11 @@ class Guru extends BaseController
     }
     public function index()
     {
-
+$guru =$this->guruModel->findAll();
              
         $data = [
             'judul'=>'Data Guru',
-            'guru'=> $this->guruModel->getGuru()           
+            'guru'=> $guru           
 
         ];
       
@@ -24,7 +24,7 @@ class Guru extends BaseController
     return view('guru/index',$data);
     }
     public function detail($slug){
-       $guru =$this->guruModel->getGuru($slug);
+       echo $slug;
        
 
     }
