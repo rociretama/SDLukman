@@ -10,7 +10,7 @@ class GuruModel extends Model
 
 public function getGuru($slug = false)
 {
-    if($slug= false){
+    if($slug==false){
 
         return $this->findAll();
     }
