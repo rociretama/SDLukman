@@ -20,14 +20,11 @@ class Guru extends BaseController
 
         ];
 
-        return view('guru', $data);
+        return view('guru/index', $data);
     }
     
-
-
     public function detail($slug)
     {
-
         $data = [
             'judul' => 'Detail Guru | Data Guru',
             'guru' => $this->guruModel->getGuru($slug)
@@ -35,12 +32,6 @@ class Guru extends BaseController
         ];
         return view('guru/detail', $data);
     }
-    public function create()
-    {
-        $data = [
-            'judul' => 'Form Tambah Data | Data Guru'
-        ];
-        return view('guru/create',$data);
-    }
+    
 
 }

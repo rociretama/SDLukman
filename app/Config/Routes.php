@@ -35,6 +35,7 @@ $routes->get('/', 'Laman::index');
 $routes->get('/guru/(:segment)', 'Guru::detail/$1');
 
 
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
