@@ -23,9 +23,18 @@ $guru =$this->guruModel->findAll();
         
     return view('guru/index',$data);
     }
-    public function detail($slug){
-       echo $slug;
-       
+   
+    
+    public function create()
+    {
 
+             
+        $data = [
+            'judul'=>'Tambah Data',
+           
+        ];
+      
+        
+    return view('guru/index',$data);
     }
 }

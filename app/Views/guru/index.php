@@ -4,7 +4,9 @@
 <div class="container">
     <div class="row">
         <div class="col">
+     
         <h1 class="mt-2">Data Guru</h1>
+        <a href="/guru/create" class="btn btn-primary mb-3"> Tambah Data </a>
         <table class="table table-striped">
         <thead>
     <tr>
