@@ -22,6 +22,7 @@ class Guru extends BaseController
 
         return view('guru/index', $data);
     }
+
     
     public function detail($slug)
     {
@@ -31,6 +32,7 @@ class Guru extends BaseController
 
         ];
         return view('guru/detail', $data);
+
     }
     
 

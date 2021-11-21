@@ -4,9 +4,11 @@
 <div class="container">
     <div class="row">
         <div class="col">
+     
         <h1 class="mt-2">Data Guru</h1>
+
        
-               <table class="table table-striped">
+
         <thead>
     <tr>
       <th scope="col">#</th>
