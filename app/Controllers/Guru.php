@@ -34,6 +34,16 @@ class Guru extends BaseController
         return view('guru/detail', $data);
 
     }
+    public function create()
+    {
+        $data = [
+            'judul' => 'Tambah data| Data Guru'
+            
+
+        ];
+        return view('guru/create', $data);
+
+    }
     
 
 }
