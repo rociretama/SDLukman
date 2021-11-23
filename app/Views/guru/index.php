@@ -7,9 +7,7 @@
      
         <h1 class="mt-2">Data Guru</h1>
 
-       
-
-        <thead>
+               <thead>
     <tr>
       <th scope="col">#</th>
       <th scope="col">Foto</th>
