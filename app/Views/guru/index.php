@@ -6,7 +6,7 @@
     <div class="col">
 
       <h1 class="mt-2">Data Guru</h1>
-      <a href="create" class="btn btn-primary">Tambah Data</a> 
+      <a href="/guru/create" class="btn btn-primary">Tambah Data</a> 
 
       <table class="table table-striped table-hover">
       <thead>
