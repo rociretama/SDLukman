@@ -50,10 +50,10 @@ class Guru extends BaseController
     public function save()
     {   
         //dd($this->request->getVar());
-      $slug = url_title($this->request->getVar('nama'),'-',true)
+      $slug = url_title($this->request->getVar('nama'),'-',true);
         $this->guruModel->save([
         'nama' => $this->request->getVar('nama'),
-        'slug' => $slug
+        'slug' => $slug,
         'gelar' => $this->request->getVar('gelar'),
         'foto' => $this->request->getVar('foto')
         ]);
